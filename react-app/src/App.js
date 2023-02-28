@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./components/greet";
 import Welcome from "./components/welcome";
+import Message from"./components/message";
 // function App() {
 //   return (
 //     <div className="App">
@@ -30,6 +31,8 @@ class App extends Component {
         <Welcome name="Bruce" heroName="batman"></Welcome>
         <Welcome name="Clark" heroName="superman"></Welcome>
         <Welcome name="Diana" heroName="wonder woman"></Welcome>
+        <Message></Message>
+
       </div>
     );
   }
